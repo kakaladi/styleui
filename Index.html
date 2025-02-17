@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="https://lh3.googleusercontent.com/MOVPfGccBq1PpiqeAY4rxWe_CddJcOICRQ0MJ8CE8uwSyTXvsk-RipkMXrwhhtoJ_4k" type="image/png">
+    <meta charset="UTF-8">
+    <title>Style UI</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Link to the CSS file -->
+    <audio id="ambientSound" loop>
+        <source src="audio/beats.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="transitionSound">
+        <source src="audio/beats.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+</head>
+ <body><!-- The body of the HTML document -->
+    <h1>Scroll Down to See the Button</h1>
+    <p>This is a long page to demonstrate the "Go to Top" button.</p>
+
+    <!-- Go to Top Button -->
+    <button id="goToTopBtn" title="Go to Top">↑</button>
+  <div class="container"> 
+   <div class="header">
+    <div class="choose-stayle">
+     <!-- Checkbox to toggle containers -->
+        <div class="toggle-container">
+            <label>
+                <input type="checkbox" id="toggleRain"> Rain
+            </label>
+            <label>
+                <input type="checkbox" id="toggleSnow"> Snow
+            </label>
+        </div>
+        <label class="checkbox-label">
+            <input type="checkbox" id="toggleContainer"> Show Prompts 
+        </label>
+        <span class="slstyle">😒😊Select a style 👉</span>
+        <div class="selects" id="dynamicSelects"></div>
+                <!-- Style select will be dynamically added here -->
+            </div>
+        </div>
+        <div class="grid-container">
+            <!-- First Grid Item -->
+            <div class="grid-item">
+                <div class="card">
+                    <div class="Website">
+                        <div class="text-sm">
+                            Website :
+                            <a class="Copilot" href="#">Copilot</a>
+                        </div>
+                        <div class="Group">
+                            Group :
+                            <a class="Telegram" href="#">Telegram</a>
+                        </div>
+                        <div class="Donate-me">
+                            Donate me :
+                            <a class="QR-Code" href="#">QR Code</a>
+                        </div>
+                    </div>
+     
+                     <!-- Image Container -->
+                     <div id="imageContainer">
+                        <!-- This is where the image will be appended -->
+                    </div>
+
+
+                </div>
+            </div>
+             <!-- Second Grid Item -->
+             <div class="grid-item">
+                <div class="card">
+                    <div class="theader-card">
+                        <input type="text" placeholder="បញ្ចូលពាក្យបញ្ជាររបស់អ្នក" class="input-text" id="dogInput" oninput="updateText()">
+                    </div>
+                    <div id="container">
+                        <!-- This is where the checkboxes and selects will be appended -->
+                    </div>
+                </div>
+
+                <!-- Generate Section -->
+                <div class="Generate">
+                    <span class="text-sm generate-text">Generate On Copilot 👇</span>
+
+                </div>
+
+                <!-- Dynamic Text and Copy Button -->
+                <div class="mt-2">
+                    <p class="formprompt" id="copyText">
+                        <span id="dynamicText"></span>
+                        <button class="copy-button" onclick="copyToClipboard()">Copy Text</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Container 2 -->
+        <div class="container2">
+            <table class="custom-table">
+                <!-- This is where the checkboxes and selects will be appended -->
+            </table>
+        </div>
+
+        <!-- Container 3 -->
+        <div class="container3" style="display: none;">
+            <div class="button-container">
+                <button onclick="showTable(1)" class="prompt-button prompt-1">prompt 1</button>
+                <button onclick="showTable(2)" class="prompt-button prompt-2">prompt 2</button>
+                <button onclick="showTable(3)" class="prompt-button prompt-3">prompt 3</button>
+                <button onclick="showTable(4)" class="prompt-button prompt-4">prompt 4</button>
+                <button onclick="showTable(5 )" class="prompt-button prompt-5">prompt 5</button>
+            </div> 
+            <div class="overflow-x-auto">
+                <table class="min-w-full bg-white border border-gray-300" id="container3Table">
+                    <!-- Table content will be dynamically added here -->
+                </table>
+            </div>
+        </div>
+  <script src="js/scripts.js"></script> <!-- Link to the JS file -->
+  <script src="js/Prompt.js"></script> <!-- Link to the JS file -->
+ </body>
+</html>
