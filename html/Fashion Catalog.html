@@ -1,0 +1,445 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Fashion Catalog
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-gray-50 min-h-screen flex flex-col">
+  <header class="bg-white shadow sticky top-0 z-50">
+   <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+    <a class="text-2xl font-bold text-gray-900" href="#">
+     Fashion Catalog
+    </a>
+    <nav class="hidden md:flex space-x-6 text-gray-700 font-semibold">
+     <a class="hover:text-indigo-600 transition" href="#">
+      Home
+     </a>
+     <a class="hover:text-indigo-600 transition" href="#">
+      Collections
+     </a>
+     <a class="hover:text-indigo-600 transition" href="#">
+      About
+     </a>
+     <a class="hover:text-indigo-600 transition" href="#">
+      Contact
+     </a>
+    </nav>
+    <button aria-label="Toggle menu" class="md:hidden text-gray-700 focus:outline-none" id="menu-btn">
+     <i class="fas fa-bars fa-lg">
+     </i>
+    </button>
+   </div>
+   <nav class="md:hidden bg-white border-t border-gray-200 hidden" id="mobile-menu">
+    <a class="block px-4 py-3 text-gray-700 font-semibold hover:bg-indigo-50 transition" href="#">
+     Home
+    </a>
+    <a class="block px-4 py-3 text-gray-700 font-semibold hover:bg-indigo-50 transition" href="#">
+     Collections
+    </a>
+    <a class="block px-4 py-3 text-gray-700 font-semibold hover:bg-indigo-50 transition" href="#">
+     About
+    </a>
+    <a class="block px-4 py-3 text-gray-700 font-semibold hover:bg-indigo-50 transition" href="#">
+     Contact
+    </a>
+   </nav>
+  </header>
+  <main class="flex-grow container mx-auto px-4 py-8">
+   <h1 class="text-4xl font-extrabold text-gray-900 mb-8 text-center">
+    Fashion Catalog
+   </h1>
+   <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="79s Cambodia Fashion.html">
+     <img alt="A stylish 1979 Cambodia fashion outfit with traditional and vintage elements, displayed on a mannequin in a bright studio" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/ab8a754a-97c5-42c4-c73a-0426419dd476.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       79s Cambodia Fashion
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Vintage inspired Cambodian fashion from the 1970s with traditional
+            motifs.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Animal-shaped Sleepwear.html">
+     <img alt="Cozy animal-shaped sleepwear pajamas set with ears and tail, displayed on a model in a cozy bedroom setting" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/f31b19bd-2e20-4fdd-76c9-4e252f1580c1.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Animal-shaped Sleepwear
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Fun and cozy sleepwear designed to look like various animals for
+            comfort and style.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Asian Student Uniform.html">
+     <img alt="Classic Asian student uniform with white shirt, navy skirt, and tie, displayed on a mannequin in a school hallway" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/6afd0c11-1e97-477c-b497-3e4ecb3c3eb3.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Asian Student Uniform
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Traditional Asian student uniforms featuring neat and formal
+            designs.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Beachwear Collection.html">
+     <img alt="Bright and colorful beachwear collection including swimsuits, cover-ups, and hats, displayed on mannequins on a sunny beach" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/1753f5a7-3b79-4fa1-0e40-da3a988ae671.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Beachwear Collection
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Vibrant and stylish beachwear perfect for summer days by the sea.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Beggar's Outfit.html">
+     <img alt="Ragged and worn beggar's outfit with layered torn clothes, displayed on a rustic mannequin in a street setting" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/88b3a79f-174c-47e1-258b-6b10bc580896.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Beggar's Outfit
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Authentic beggar's outfit with layered, worn, and torn clothing
+            styles.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Cheer Uniform.html">
+     <img alt="Bright and energetic cheerleading uniform with pleated skirt and pom-poms, displayed on a mannequin in a gymnasium" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/9acbaf37-0efa-4651-889b-008be828f56a.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Cheer Uniform
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Energetic cheerleading uniforms with vibrant colors and pleated
+            skirts.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Daily Clothing.html">
+     <img alt="Casual daily clothing set with t-shirt and jeans, displayed on a mannequin in a bright urban setting" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/37b01f46-f76d-4298-a231-fc523ca649c4.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Daily Clothing
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Comfortable and casual daily wear perfect for everyday activities.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Denim Overalls.html">
+     <img alt="Classic denim overalls with rolled cuffs and front pocket, displayed on a mannequin in a rustic studio" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/7fb1628e-96cd-404b-86fa-47be469c312d.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Denim Overalls
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Durable and stylish denim overalls with classic design elements.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Factory Uniform.html">
+     <img alt="Practical factory uniform with durable fabric and safety features, displayed on a mannequin in an industrial setting" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/35ced170-3478-4a0b-7287-6ef9e55826ba.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Factory Uniform
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Practical and safe factory uniforms designed for industrial work.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Gangster Costume.html">
+     <img alt="Vintage gangster costume with pinstripe suit, fedora hat, and cigar, displayed on a mannequin in a moody studio" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/1db53e48-a294-4fd0-2f88-9127deae24ba.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Gangster Costume
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Classic gangster costume with pinstripe suit and vintage accessories.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Jersey football Suits.html">
+     <img alt="Colorful football jersey suits with team logos and numbers, displayed on mannequins on a sports field" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/9c79c558-ff57-491f-c6d8-60a1b4eaeca2.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Jersey Football Suits
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Team football jerseys with vibrant colors and breathable fabric.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Modern Fashion sets .html">
+     <img alt="Trendy modern fashion sets with layered clothing and accessories, displayed on a model in an urban environment" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/b399b403-90ee-4038-9172-ce961ddecb35.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Modern Fashion Sets
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Contemporary fashion sets featuring layered and stylish outfits.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Nightclub Outfit.html">
+     <img alt="Glamorous nightclub outfit with shiny fabrics and bold colors, displayed on a mannequin in a club setting with neon lights" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/ccc6f989-b854-4a6f-79c7-f9a6c5c484b9.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Nightclub Outfit
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Bold and glamorous outfits perfect for nightclub and party scenes.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Nightwear 1.html">
+     <img alt="Elegant nightwear set with soft fabrics and delicate lace, displayed on a mannequin in a cozy bedroom" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/5aa20818-8036-4a97-0336-29f79b455102.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Nightwear 1
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Elegant and comfortable nightwear with delicate lace details.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Office Uniform.html">
+     <img alt="Professional office uniform with blazer, skirt, and blouse, displayed on a mannequin in a modern office" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/3f46cdd8-e34a-45db-2ee6-e14b461846e3.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Office Uniform
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Sharp and professional office uniforms for a polished look.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Paint jean.html">
+     <img alt="Trendy paint-splattered jeans with artistic colorful patterns, displayed on a mannequin in a creative studio" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/d1aa3879-1bd1-44dc-e854-52d198aee6de.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Paint Jean
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Artistic jeans featuring colorful paint splatters and unique style.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Party Dress Styles.html">
+     <img alt="Elegant party dresses in various styles and colors, displayed on mannequins in a festive setting" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/ef077651-7ca3-4719-a535-c0ae3ffce60a.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Party Dress Styles
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Stylish and elegant party dresses for all occasions.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Rainwear .html">
+     <img alt="Functional rainwear including waterproof jackets and boots, displayed on mannequins in a rainy urban environment" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/9447396d-0196-4dce-9858-43270c606dfa.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Rainwear
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Waterproof rainwear designed to keep you dry and stylish.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Sexy Chef Outfits.html">
+     <img alt="Stylish and sexy chef outfits with fitted aprons and hats, displayed on mannequins in a kitchen setting" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/c5f34016-58f7-4554-eee5-ddda83693a88.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Sexy Chef Outfits
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Flirty and fashionable chef outfits with modern cuts.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Sexy Construction Cloth.html">
+     <img alt="Sexy construction clothing with fitted safety vests and hard hats, displayed on mannequins at a construction site" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/1b64dd80-8e56-45c9-b34f-a740393884dc.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Sexy Construction Cloth
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Fashionable and sexy construction wear with safety features.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Sexy Housewife Sets.html">
+     <img alt="Sexy housewife outfit sets with aprons and retro style dresses, displayed on mannequins in a vintage kitchen" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/28bc9660-951d-45f0-ed9c-4ba37411a2cc.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Sexy Housewife Sets
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Retro-inspired sexy housewife outfits with playful aprons.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Sexy Ripped Clothes.html">
+     <img alt="Trendy sexy ripped clothes with distressed denim and edgy cuts, displayed on mannequins in an urban street style setting" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/c8aff843-8da6-4ff1-399e-0c5a5786e3b9.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Sexy Ripped Clothes
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Edgy and fashionable ripped clothes with a sexy vibe.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="sleepwear.html">
+     <img alt="Comfortable and stylish sleepwear sets with soft fabrics, displayed on mannequins in a cozy bedroom" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/4387ad83-376b-4165-966e-50370ddaae9d.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Sleepwear
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Soft and comfortable sleepwear for a restful night.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Sportswear.html">
+     <img alt="Dynamic sportswear sets with breathable fabrics and athletic cuts, displayed on mannequins in a gym environment" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/6af94d86-88fa-4c9c-2587-e86e0ca47ca5.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Sportswear
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Breathable and flexible sportswear for active lifestyles.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Spring Cherry Blossoms.html">
+     <img alt="Elegant spring fashion inspired by cherry blossoms with floral patterns and pastel colors, displayed on mannequins in a garden" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/99d027cf-2cf0-4645-cc7b-fe41f5edb69a.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Spring Cherry Blossoms
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Floral and pastel spring fashion inspired by cherry blossoms.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Summer Set Collection.html">
+     <img alt="Bright and breezy summer fashion sets with light fabrics and vibrant colors, displayed on mannequins on a sunny terrace" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/14ddb90d-b2f6-4853-2662-c41d34558cd6.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Summer Set Collection
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Light and vibrant summer fashion sets for warm weather.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="T-shirt.html">
+     <img alt="Casual t-shirt collection with various colors and prints, displayed on mannequins in a casual urban setting" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/dfcbb0c9-63cc-4ad0-5daa-f11668ec2329.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       T-shirt
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Casual and comfortable t-shirts in multiple styles and colors.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Taxi Driver Outfit.html">
+     <img alt="Classic taxi driver outfit with button-up shirt and cap, displayed on a mannequin near a taxi car" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/5327b73d-d7c6-4831-7944-18d367b5a65d.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Taxi Driver Outfit
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Classic and practical taxi driver uniforms with iconic style.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Tops Gallery.html">
+     <img alt="Variety of stylish tops including blouses, crop tops, and shirts, displayed on mannequins in a boutique" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/c9f6d2dd-39be-4bbb-58e0-1dc1d1c66205.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Tops Gallery
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Diverse collection of stylish tops for every occasion.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="WildFit Activewear.html">
+     <img alt="High-performance WildFit activewear with sleek design and moisture-wicking fabric, displayed on mannequins in a gym" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/7b408338-3ec8-4e38-b769-3b7a55d53ce9.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       WildFit Activewear
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Sleek and functional activewear designed for fitness enthusiasts.
+      </p>
+     </div>
+    </a>
+    <a class="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col" href="Winter Sets.html">
+     <img alt="Warm winter fashion sets including coats, scarves, and boots, displayed on mannequins in a snowy outdoor setting" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/53fc18ac-5161-40ac-64ce-4b53afd418bb.jpg" width="400"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">
+       Winter Sets
+      </h2>
+      <p class="text-gray-600 text-sm flex-grow">
+       Cozy and stylish winter sets to keep you warm in cold weather.
+      </p>
+     </div>
+    </a>
+   </section>
+  </main>
+  <footer class="bg-white border-t border-gray-200 mt-12">
+   <div class="container mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm">
+    <p>
+     © 2024 Fashion Catalog. All rights reserved.
+    </p>
+    <div class="flex space-x-4 mt-4 md:mt-0">
+     <a aria-label="Facebook" class="hover:text-indigo-600 transition" href="#">
+      <i class="fab fa-facebook fa-lg">
+      </i>
+     </a>
+     <a aria-label="Twitter" class="hover:text-indigo-600 transition" href="#">
+      <i class="fab fa-twitter fa-lg">
+      </i>
+     </a>
+     <a aria-label="Instagram" class="hover:text-indigo-600 transition" href="#">
+      <i class="fab fa-instagram fa-lg">
+      </i>
+     </a>
+     <a aria-label="LinkedIn" class="hover:text-indigo-600 transition" href="#">
+      <i class="fab fa-linkedin fa-lg">
+      </i>
+     </a>
+    </div>
+   </div>
+  </footer>
+  <script>
+   const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+ </body>
+</html>

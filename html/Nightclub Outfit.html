@@ -1,0 +1,876 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Nightclub Outfit Gallery
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-gray-900 text-gray-100 min-h-screen">
+  <header class="bg-gray-800 shadow-md sticky top-0 z-50">
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+    <h1 class="text-2xl font-semibold tracking-wide">
+     Nightclub Outfit Gallery
+    </h1>
+    <nav class="hidden md:flex space-x-6 text-gray-300">
+     <a class="hover:text-white transition" href="#">
+      Home
+     </a>
+     <a class="hover:text-white transition" href="#">
+      Outfits
+     </a>
+     <a class="hover:text-white transition" href="#">
+      About
+     </a>
+     <a class="hover:text-white transition" href="#">
+      Contact
+     </a>
+    </nav>
+    <button class="md:hidden focus:outline-none" id="menu-btn">
+     <i class="fas fa-bars text-2xl">
+     </i>
+    </button>
+   </div>
+   <nav class="md:hidden bg-gray-800 px-4 pt-2 pb-4 hidden" id="mobile-menu">
+    <a class="block py-2 text-gray-300 hover:text-white" href="#">
+     Home
+    </a>
+    <a class="block py-2 text-gray-300 hover:text-white" href="#">
+     Outfits
+    </a>
+    <a class="block py-2 text-gray-300 hover:text-white" href="#">
+     About
+    </a>
+    <a class="block py-2 text-gray-300 hover:text-white" href="#">
+     Contact
+    </a>
+   </nav>
+  </header>
+  <main class="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
+   <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Sequin Mini Dress, Strappy Stilettos, and Clutch Bag hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/d61b5dc2-bbe5-4d02-f055-53889275ac27.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Sequin Mini Dress + Strappy Stilettos + Clutch Bag
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Leather Crop Top, High-Waisted Skirt, and Heeled Booties hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/2cfd652f-352f-4a44-a61a-b0557220b9eb.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Leather Crop Top + High-Waisted Skirt + Heeled Booties
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Bodycon Dress, Over-the-Knee Boots, and Statement Earrings hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/406f20aa-2b71-4acd-d029-8621cbc3da69.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Bodycon Dress + Over-the-Knee Boots + Statement Earrings
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Mesh Bodysuit, Leather Pants, and Heeled Sandals hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/be76ed3e-2ac4-4c94-9def-b88cd804e231.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Mesh Bodysuit + Leather Pants + Heeled Sandals
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Satin Slip Dress, Ankle Strap Heels, and Choker Necklace hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/ea6e76d6-8812-43f0-9b18-b3475d2a420a.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Satin Slip Dress + Ankle Strap Heels + Choker Necklace
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Velvet Jumpsuit, Platform Heels, and Bold Belt hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/80a954c1-3b64-4a6f-4b8c-107ae6ff41ee.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Velvet Jumpsuit + Platform Heels + Bold Belt
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Metallic Mini Skirt, Off-Shoulder Top, and Glitter Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/7f841e18-c399-482d-047d-06d2967c85cd.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Metallic Mini Skirt + Off-Shoulder Top + Glitter Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Rhinestone Bralette, Wide-Leg Trousers, and Ankle Boots hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/7f1d9b44-683f-4472-c15b-fb3e5876b949.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Rhinestone Bralette + Wide-Leg Trousers + Ankle Boots
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Lace Dress, Strappy Sandals, and Statement Ring hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/e696a18d-4062-47ee-882d-ba13a64cda65.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Lace Dress + Strappy Sandals + Statement Ring
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Halter Neck Top, Suede Skirt, and Lucite Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/0bb31b10-a311-4ba5-04bc-b0adf5f0c792.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Halter Neck Top + Suede Skirt + Lucite Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Cut-Out Dress, Pumps, and Chain Necklace hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/dbb40406-05d2-460f-8733-45172737f180.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Cut-Out Dress + Pumps + Chain Necklace
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Sheer Top, High-Waisted Shorts, and Thigh-High Boots hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/933246df-fe08-463b-30eb-63b6eedaae5f.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Sheer Top + High-Waisted Shorts + Thigh-High Boots
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Plunge Neck Jumpsuit, Peep-Toe Heels, and Arm Cuff hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/f1fe7537-2dbc-447c-b39a-28bce4d6d704.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Plunge Neck Jumpsuit + Peep-Toe Heels + Arm Cuff
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Fringe Dress, Metallic Heels, and Hoop Earrings hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/23d4f947-08b1-4bc7-70b9-3ac7c63bc4d3.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Fringe Dress + Metallic Heels + Hoop Earrings
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Backless Maxi Dress, Strappy Sandals, and Cuff Bracelet hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/092f0f9e-9bb3-44ad-b5fb-96c67709e244.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Backless Maxi Dress + Strappy Sandals + Cuff Bracelet
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Cropped Sequin Jacket, Leather Leggings, and Boots hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/15d3fa47-d9d7-4f72-1dea-fc4f98cc99fb.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Cropped Sequin Jacket + Leather Leggings + Boots
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Lace-Up Bodysuit, Satin Skirt, and Heeled Boots hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/1bb460a2-f56a-4e93-7c49-8aa570f3500e.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Lace-Up Bodysuit + Satin Skirt + Heeled Boots
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of an Asymmetrical Dress, Statement Heels, and Clutch hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/82391c5b-cd80-483c-a205-9956204179b1.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Asymmetrical Dress + Statement Heels + Clutch
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Studded Bustier, High-Waisted Jeans, and Stiletto Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/7acd17a7-27ff-4d31-938d-623919eb377d.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Studded Bustier + High-Waisted Jeans + Stiletto Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Ruffle Mini Dress, Platform Sandals, and Drop Earrings hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/6192f740-88c4-4e7a-ad53-8bcdf4088135.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Ruffle Mini Dress + Platform Sandals + Drop Earrings
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Fishnet Bodysuit, Denim Skirt, and Ankle Boots hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/2f3ca269-7def-4882-eef1-fe7d9b37c9d8.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Fishnet Bodysuit + Denim Skirt + Ankle Boots
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Bandage Dress, Clear Heels, and Layered Necklace hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/0751a14a-1b53-4748-6d0d-c8f7ed4cb443.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Bandage Dress + Clear Heels + Layered Necklace
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Cowl Neck Slip Top, Skinny Pants, and Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/b847686f-9098-43ca-b333-d27ff28b8b61.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Cowl Neck Slip Top + Skinny Pants + Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Sparkle Crop Top, Velvet Pants, and Strappy Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/6574bca0-2638-459d-5183-fdde55ad97e6.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Sparkle Crop Top + Velvet Pants + Strappy Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of an Off-the-Shoulder Bodysuit, Mini Skirt, and Heeled Mules hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/99db468b-08ed-4256-1a63-3c2f553aebc6.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Off-the-Shoulder Bodysuit + Mini Skirt + Heeled Mules
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Backless Jumpsuit, Chunky Heels, and Earrings hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/a9a6cbca-8e3c-4e60-6f7d-a8835aa8749f.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Backless Jumpsuit + Chunky Heels + Earrings
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Bodycon Skirt, Sheer Blouse, and High Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/f3b0919a-06d3-42d6-983d-507dc91c3241.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Bodycon Skirt + Sheer Blouse + High Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Rhinestone Dress, Patent Heels, and Necklace hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/3093fe43-2723-49b5-ac60-b70668b6999b.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Rhinestone Dress + Patent Heels + Necklace
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Satin Wrap Dress and Statement Boots hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/8c350d27-9914-45a3-f881-6079d125eacb.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Satin Wrap Dress + Statement Boots
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Metallic Bodysuit, Pleated Skirt, and Strappy Sandals hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/a1154774-4087-4529-0b67-27ddce2d567b.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Metallic Bodysuit + Pleated Skirt + Strappy Sandals
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Chainmail Top, Leather Skort, and Slouch Boots hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/5cdcb9b8-5174-4caa-0bbf-f92cd31a1485.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Chainmail Top + Leather Skort + Slouch Boots
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Cutout Mini Dress, Stiletto Heels, and Clutch hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/96ac395f-7f26-481b-651d-d199c4a25571.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Cutout Mini Dress + Stiletto Heels + Clutch
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Velvet Blazer, Matching Shorts, and Over-the-Knee Boots hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/228a87a0-fc84-4ced-57a0-bef8501c7bad.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Velvet Blazer + Matching Shorts + Over-the-Knee Boots
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Corset Top, Wide-Leg Jeans, and Lace-Up Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/7b0f00af-2071-42ec-bcc2-5699795595c9.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Corset Top + Wide-Leg Jeans + Lace-Up Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Sheer Panel Dress, Heeled Sandals, and Cuff Bracelet hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/c2dfa029-3eb3-4449-c899-bca4ad605d27.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Sheer Panel Dress + Heeled Sandals + Cuff Bracelet
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of Sequin Shorts, Mesh Top, and Strappy Booties hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/4a7fdfa1-362e-485e-e811-9c5fe829c507.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Sequin Shorts + Mesh Top + Strappy Booties
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Lace Midi Dress, Pointed Toe Heels, and Earrings hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/9192cfc9-cdeb-4824-7179-b8229b546f0b.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Lace Midi Dress + Pointed Toe Heels + Earrings
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of an Off-Shoulder Blouse, High-Waisted Pants, and Mules hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/0291c8a4-b3bb-4167-9446-03080c56f2d1.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Off-Shoulder Blouse + High-Waisted Pants + Mules
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Plunging Neckline Jumpsuit, Heeled Boots, and Clutch hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/3c7e9c3e-bd51-49a4-6cdb-19e5947e2a20.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Plunging Neckline Jumpsuit + Heeled Boots + Clutch
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Halter Dress, Strappy Heels, and Layered Bracelets hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/ec88627b-856c-43f9-8da1-84e7b900f779.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Halter Dress + Strappy Heels + Layered Bracelets
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Glitter Bodysuit, Mini Skirt, and Platform Sandals hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/e87b29a6-5629-4797-ce82-8f1beb67d486.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Glitter Bodysuit + Mini Skirt + Platform Sandals
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Leather Skirt, Cami Top, and Ankle Strap Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/ca4f5759-fa09-4b32-a6f0-be2e25f5f5aa.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Leather Skirt + Cami Top + Ankle Strap Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a One-Shoulder Sequin Dress, Stilettos, and Clutch hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/57cda9ca-c592-405c-c419-3d84d4ba1526.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       One-Shoulder Sequin Dress + Stilettos + Clutch
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Mesh Maxi Dress, Bodysuit, and Gladiator Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/4c87f187-5ba7-4357-0770-a336a5707e5c.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Mesh Maxi Dress + Bodysuit + Gladiator Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Crisscross Back Top, Fitted Jeans, and Peep-Toe Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/0237a613-8db5-4e05-1133-bbb53922e9e4.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Crisscross Back Top + Fitted Jeans + Peep-Toe Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Tube Dress, Strappy Sandals, and Statement Earrings hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/c48cce70-b5ec-41c4-36b2-67db2a49407a.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Tube Dress + Strappy Sandals + Statement Earrings
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a High-Low Dress, Platform Boots, and Necklace hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/2124a628-8ee1-436b-5b3b-85c633b3a0d3.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       High-Low Dress + Platform Boots + Necklace
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Satin Top, Pencil Skirt, and Pointed Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/b2d259ab-1196-4275-947c-07cd552df799.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Satin Top + Pencil Skirt + Pointed Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Ruffled Skirt, Crop Top, and Lace-Up Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/34035913-ed1d-4ddd-1a3c-ae3a083256ec.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Ruffled Skirt + Crop Top + Lace-Up Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Slip Dress, Sheer Kimono, and Clear Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/f7d547ac-7e1e-45f3-24e0-ecbfa25ee3e6.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Slip Dress + Sheer Kimono + Clear Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Chain Detail Top, Suede Pants, and Ankle Boots hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/19e69234-14c8-4f2c-ee6a-9e6047e41acc.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Chain Detail Top + Suede Pants + Ankle Boots
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Jumpsuit, Sequined Jacket, and Strappy Sandals hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/664019a5-f4cd-43ba-e831-77c8adbcc809.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Jumpsuit + Sequined Jacket + Strappy Sandals
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of Faux Leather Pants, Sheer Blouse, and Pumps hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/7063c624-adb3-4a6c-fa4b-160621554d0f.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Faux Leather Pants + Sheer Blouse + Pumps
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Sequin Bustier, Maxi Skirt, and Stilettos hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/9cd32140-8c79-496e-c8ca-e62ba8d0edb0.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Sequin Bustier + Maxi Skirt + Stilettos
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of an Off-Shoulder Top, Denim Shorts, and Booties hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/f2f5899f-70c1-4424-3305-9e93783de552.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Off-Shoulder Top + Denim Shorts + Booties
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Backless Top, Leather Skirt, and Platform Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/6f3a7cfe-b2b1-4b62-2a11-25c948099f6b.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Backless Top + Leather Skirt + Platform Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Cut-Out Bodysuit, High-Waisted Skirt, and Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fe345a43-e4fa-4c98-1c3e-bbba1c572c4e.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Cut-Out Bodysuit + High-Waisted Skirt + Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Floral Maxi Dress, Chunky Heels, and Earrings hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/841aa286-aca0-4239-4aba-0e7c7c25e9ff.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Floral Maxi Dress + Chunky Heels + Earrings
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Metallic Jumpsuit, Strappy Heels, and Bracelet hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/47bc7dc1-4f2b-4ea8-9f34-7b54b0d05a2a.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Metallic Jumpsuit + Strappy Heels + Bracelet
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of an Embellished Mini Dress and Peep-Toe Booties hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/8110c5c4-84df-4fa3-de82-af9df4ddbead.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Embellished Mini Dress + Peep-Toe Booties
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Velvet Skirt, Lace Top, and Ankle Boots hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/4adc7f43-fd41-4ea1-fb9b-2687ff4c44a2.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Velvet Skirt + Lace Top + Ankle Boots
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Square Neck Dress, Gladiator Sandals, and Arm Cuff hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/49e25f1c-a556-4a0f-823c-060ce57aa940.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Square Neck Dress + Gladiator Sandals + Arm Cuff
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Cropped Blazer, High-Waist Pants, and Pointed Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/b9bd1db4-2910-47f8-a12d-792488c0912b.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Cropped Blazer + High-Waist Pants + Pointed Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Knit Bodycon Dress, Strappy Sandals, and Necklace hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/03b132f4-08f7-4a1c-30b8-bd9de9173a45.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Knit Bodycon Dress + Strappy Sandals + Necklace
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Satin Tie-Front Top, Skater Skirt, and Heeled Boots hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/6d08a7b6-f161-4c31-abc6-d59d7953f5bb.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Satin Tie-Front Top + Skater Skirt + Heeled Boots
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of Patent Leather Pants, Mesh Crop Top, and Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/9b1bef9f-6cb3-4aeb-33ab-d5766eb678d1.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Patent Leather Pants + Mesh Crop Top + Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Long Sleeve Mini Dress and Platform Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/6aff32ee-e274-4057-2bff-e0d5b68b242c.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Long Sleeve Mini Dress + Platform Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Bustier Dress, Metallic Sandals, and Hoop Earrings hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/c430fa5c-5210-4ef6-c2a1-5ba7d2c4d758.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Bustier Dress + Metallic Sandals + Hoop Earrings
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Bandeau Top, Leather Pants, and Stilettos hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/51847c52-5423-4341-eed2-30bfca9154fa.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Bandeau Top + Leather Pants + Stilettos
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Tulle Skirt, Sequined Top, and Ankle Boots hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/a7d2033a-a3d0-482c-e1f1-9ef341ad557b.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Tulle Skirt + Sequined Top + Ankle Boots
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of an Off-Shoulder Maxi, Gladiator Heels, and Necklace hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/c53260f0-f60e-4c19-a9ec-20c3fb25a2ad.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Off-Shoulder Maxi + Gladiator Heels + Necklace
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Leather Bralette, High-Waisted Shorts, and Strappy Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/6b369574-d12b-459f-541a-f9562db3718f.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Leather Bralette + High-Waisted Shorts + Strappy Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Drape Dress, Block Heels, and Choker hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/6a9f434c-f510-494d-5e00-574718d11f7f.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Drape Dress + Block Heels + Choker
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Tie Crop Top, Mini Leather Skort, and Over-The-Knee Boots hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/b983a084-8bb6-47b5-1436-88f970069f09.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Tie Crop Top + Mini Leather Skort + OTK Boots
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of an Asymmetric Top, Jeans, and Peep-Toe Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/48498368-b585-43d9-0dad-e95132df9d0f.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Asymmetric Top + Jeans + Peep-Toe Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Slinky Dress, Ankle Boots, and Shoulder Bag hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/206ff012-4e5f-4da6-8eac-57abca9b251d.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Slinky Dress + Ankle Boots + Shoulder Bag
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Wrap Top, Satin Shorts, and Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/cabfe17e-bc00-45f0-3c26-25d6512f24ca.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Wrap Top + Satin Shorts + Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Chainmail Dress, Heeled Sandals, and Earrings hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/88ad0855-65b6-4d15-338d-d241fd707a1a.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Chainmail Dress + Heeled Sandals + Earrings
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Fringe Top, Flare Jeans, and Stilettos hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/8d071a42-86c0-4ba3-df80-ac1935678b5f.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Fringe Top + Flare Jeans + Stilettos
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Shimmer Jumpsuit, Platform Heels, and Earrings hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/5b7620be-3be0-48fa-dda4-37386c18d29b.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Shimmer Jumpsuit + Platform Heels + Earrings
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Metallic Blouse, Tailored Shorts, and Heeled Booties hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/53fb192e-b8a9-4ba2-5e11-51bdc5c86ade.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Metallic Blouse + Tailored Shorts + Heeled Booties
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Pencil Dress, Sequined Jacket, and Peep-Toe Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/b1dda9f7-defa-4e98-030e-578d8b0aad14.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Pencil Dress + Sequined Jacket + Peep-Toe Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Longline Blazer, Lace Top, and Flare Pants hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/488a6be0-955a-4e67-1b49-23769214e2e0.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Longline Blazer + Lace Top + Flare Pants
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Cut-Out Dress, Silver Heels, and Necklace hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/3f3966b4-e632-468a-d2f7-57ca1e1df51c.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Cut-Out Dress + Silver Heels + Necklace
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Drag Tank, Wide-Leg Jeans, and Strappy Sandals hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/0384ef40-af6d-4b20-b6e1-b541e6fcad11.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Drag Tank + Wide-Leg Jeans + Strappy Sandals
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Sheer Bodysuit, Pencil Skirt, and Ankle Boots hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/d7121813-59f2-4c82-98bd-d73bd49f6d6d.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Sheer Bodysuit + Pencil Skirt + Ankle Boots
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Neck Halter Dress, Pointed Heels, and Bracelet hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/85d8e5e5-f90d-4997-0d3d-987ab0cfd71e.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Neck Halter Dress + Pointed Heels + Bracelet
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Pleated Maxi Dress and Platform Sandals hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/feab71c9-72d2-4499-a32b-aac29b5d96ba.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Pleated Maxi Dress + Platform Sandals
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Lace Bralette, Vinyl Pants, and Heeled Mules hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/4e8e0b29-a5cf-4ccb-912e-20bc1b58a38a.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Lace Bralette + Vinyl Pants + Heeled Mules
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Tie-Dye Dress, Gladiator Sandals, and Earrings hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/eb72571b-9c40-4301-5833-8fb2328493bc.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Tie-Dye Dress + Gladiator Sandals + Earrings
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Sequin Top, High-Waist Skirt, and Platform Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/93bf9d15-f21d-404f-12b8-a3660f0f0b3c.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Sequin Top + High-Waist Skirt + Platform Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Caged Bodysuit, Flare Jeans, and Booties hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/a54ae73c-1129-4872-beb1-afeae0599b6a.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Caged Bodysuit + Flare Jeans + Booties
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Slink Back Top, Midi Skirt, and Ankle Strap Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/d6fa9a1b-bbcb-4466-6c99-7ad7323ef0dd.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Slink Back Top + Midi Skirt + Ankle Strap Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of an Off-Shoulder Romper, Block Heels, and Clutch hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/e46a2e6b-48c8-4de0-dad1-f4e29f24cdbb.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Off-Shoulder Romper + Block Heels + Clutch
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Glitter Dress, Strappy Heels, and Hoop Earrings hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/6c51c0f3-ab31-48ec-e0cf-d6dc8f6884a3.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Glitter Dress + Strappy Heels + Hoop Earrings
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Knit Halter Top, Leather Shorts, and Thigh-High Boots hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/06b95835-7f47-4d61-5522-f6754101b6f9.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Knit Halter Top + Leather Shorts + Thigh-High Boots
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Halter Dress, Sequined Clutch, and Ankle Strap Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/598fd484-cf86-469e-1587-4ebffcebebf3.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Halter Dress + Sequined Clutch + Ankle Strap Heels
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Sheer Paneled Gown and Strappy Sandals hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/02cb281e-8596-41df-660e-0a1a24170df6.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Sheer Paneled Gown + Strappy Sandals
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Colorblock Crop Top, Mini Skirt, and Tall Boots hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/0c0dee34-b3ce-4abe-fa95-3791ec77d79e.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Colorblock Crop Top + Mini Skirt + Tall Boots
+      </h2>
+     </div>
+    </article>
+    <article class="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col">
+     <img alt="Photorealistic studio shot of a Bow Tie Bustier, Wide-Leg Jumpsuit, and Heels hanging neatly on a silver metal clothes hanger" class="w-full h-96 object-cover" height="800" loading="lazy" src="https://storage.googleapis.com/a1aa/image/947906ff-c586-40f1-e776-76a2dc14a265.jpg" width="600"/>
+     <div class="p-4 flex-grow flex flex-col justify-between">
+      <h2 class="text-lg font-semibold mb-2">
+       Bow Tie Bustier + Wide-Leg Jumpsuit + Heels
+      </h2>
+     </div>
+    </article>
+   </section>
+  </main>
+  <footer class="bg-gray-800 text-gray-400 py-6 mt-12">
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
+    © 2024 Nightclub Outfit Gallery. All rights reserved.
+   </div>
+  </footer>
+  <script>
+   const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+ </body>
+</html>
