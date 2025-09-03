@@ -1,0 +1,350 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Artists - Art Gallery
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: "Montserrat", sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-gray-50 min-h-screen flex flex-col">
+  <header class="bg-white shadow sticky top-0 z-30">
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+     <div class="flex-shrink-0 text-2xl font-bold text-indigo-600">
+      <i class="fas fa-palette mr-2">
+      </i>
+      Art Gallery
+     </div>
+     <nav class="hidden md:flex space-x-8 text-gray-700 font-semibold">
+      <a class="hover:text-indigo-600 transition" href="Artistic Tiny Images Gallery 1000.html">
+       Home
+      </a>
+      <a class="hover:text-indigo-600 transition" href="Artistic Tiny Images Gallery 1000.html">
+       Gallery
+      </a>
+      <a aria-current="page" class="hover:text-indigo-600 transition text-indigo-600 border-b-2 border-indigo-600 pb-1" href="Artists.html">
+       Artists
+      </a>
+      <a class="hover:text-indigo-600 transition" href="about.html">
+       About
+      </a>
+      <a class="hover:text-indigo-600 transition" href="Contract.html">
+       Contact
+      </a>
+     </nav>
+     <div class="md:hidden">
+      <button aria-label="Toggle menu" class="text-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-600" id="menu-btn">
+       <i class="fas fa-bars fa-lg">
+       </i>
+      </button>
+     </div>
+    </div>
+   </div>
+   <nav class="hidden md:hidden bg-white border-t border-gray-200" id="mobile-menu">
+    <a class="block px-4 py-3 text-gray-700 font-semibold hover:bg-indigo-50" href="#">
+     Home
+    </a>
+    <a class="block px-4 py-3 text-gray-700 font-semibold hover:bg-indigo-50" href="#">
+     Gallery
+    </a>
+    <a class="block px-4 py-3 text-indigo-600 font-semibold border-l-4 border-indigo-600 bg-indigo-50" href="#">
+     Artists
+    </a>
+    <a class="block px-4 py-3 text-gray-700 font-semibold hover:bg-indigo-50" href="#">
+     About
+    </a>
+    <a class="block px-4 py-3 text-gray-700 font-semibold hover:bg-indigo-50" href="#">
+     Contact
+    </a>
+   </nav>
+  </header>
+  <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+   <h1 class="text-3xl font-extrabold text-gray-900 mb-10 text-center">
+    Meet Our Featured Artists
+   </h1>
+   <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+    <article class="bg-white rounded-lg shadow hover:shadow-lg transition flex flex-col items-center p-6 text-center">
+     <img alt="Portrait of a middle-aged female artist with short curly hair, wearing a colorful scarf and glasses, smiling warmly" class="w-40 h-40 rounded-full object-cover mb-4" height="200" loading="lazy" src="image/2280bd14-3d08-45ca-d159-c49ed0dd379b.jpg" width="200"/>
+     <h2 class="text-xl font-semibold text-indigo-600 mb-1">
+      Sophia Martinez
+     </h2>
+     <p class="text-gray-600 mb-3 italic">
+      Contemporary Painter
+     </p>
+     <p class="text-gray-700 text-sm">
+      Sophia’s vibrant abstract paintings explore the emotions of urban life through bold colors and dynamic shapes.
+     </p>
+     <div class="mt-4 flex space-x-4 text-indigo-600 text-lg">
+      <a aria-label="Sophia Martinez Twitter" href="https://twitter.com/sophiamartinez" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-twitter hover:text-indigo-800 transition">
+       </i>
+      </a>
+      <a aria-label="Sophia Martinez Instagram" href="https://instagram.com/sophiamartinez" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-instagram hover:text-indigo-800 transition">
+       </i>
+      </a>
+      <a aria-label="Sophia Martinez Website" href="https://sophiamartinez.com" rel="noopener noreferrer" target="_blank">
+       <i class="fas fa-globe hover:text-indigo-800 transition">
+       </i>
+      </a>
+     </div>
+    </article>
+    <article class="bg-white rounded-lg shadow hover:shadow-lg transition flex flex-col items-center p-6 text-center">
+     <img alt="Portrait of a young male artist with short black hair and a beard, wearing a denim jacket, looking thoughtfully to the side" class="w-40 h-40 rounded-full object-cover mb-4" height="200" loading="lazy" src="image/d6181ab4-efa5-47d6-a37c-8dd9e7f2774a.jpg" width="200"/>
+     <h2 class="text-xl font-semibold text-indigo-600 mb-1">
+      Liam Chen
+     </h2>
+     <p class="text-gray-600 mb-3 italic">
+      Digital Illustrator
+     </p>
+     <p class="text-gray-700 text-sm">
+      Liam creates stunning digital illustrations inspired by nature and mythology, blending realism with fantasy.
+     </p>
+     <div class="mt-4 flex space-x-4 text-indigo-600 text-lg">
+      <a aria-label="Liam Chen Twitter" href="https://twitter.com/liamchen" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-twitter hover:text-indigo-800 transition">
+       </i>
+      </a>
+      <a aria-label="Liam Chen Instagram" href="https://instagram.com/liamchen" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-instagram hover:text-indigo-800 transition">
+       </i>
+      </a>
+      <a aria-label="Liam Chen Website" href="https://liamchenart.com" rel="noopener noreferrer" target="_blank">
+       <i class="fas fa-globe hover:text-indigo-800 transition">
+       </i>
+      </a>
+     </div>
+    </article>
+    <article class="bg-white rounded-lg shadow hover:shadow-lg transition flex flex-col items-center p-6 text-center">
+     <img alt="Portrait of an elderly female artist with long silver hair tied back, wearing a black turtleneck and silver earrings, smiling gently" class="w-40 h-40 rounded-full object-cover mb-4" height="200" loading="lazy" src="image/2f2140bc-dd28-4e20-3588-2a2e57a16c55.jpg" width="200"/>
+     <h2 class="text-xl font-semibold text-indigo-600 mb-1">
+      Margaret O’Neil
+     </h2>
+     <p class="text-gray-600 mb-3 italic">
+      Sculptor
+     </p>
+     <p class="text-gray-700 text-sm">
+      Margaret’s sculptures combine organic forms with industrial materials, creating thought-provoking public art installations.
+     </p>
+     <div class="mt-4 flex space-x-4 text-indigo-600 text-lg">
+      <a aria-label="Margaret O’Neil Twitter" href="https://twitter.com/margaretoneil" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-twitter hover:text-indigo-800 transition">
+       </i>
+      </a>
+      <a aria-label="Margaret O’Neil Instagram" href="https://instagram.com/margaretoneil" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-instagram hover:text-indigo-800 transition">
+       </i>
+      </a>
+      <a aria-label="Margaret O’Neil Website" href="https://margaretoneilsculpture.com" rel="noopener noreferrer" target="_blank">
+       <i class="fas fa-globe hover:text-indigo-800 transition">
+       </i>
+      </a>
+     </div>
+    </article>
+    <article class="bg-white rounded-lg shadow hover:shadow-lg transition flex flex-col items-center p-6 text-center">
+     <img alt="Portrait of a young female artist with long wavy auburn hair, wearing a white blouse and a pendant necklace, looking confidently at the camera" class="w-40 h-40 rounded-full object-cover mb-4" height="200" loading="lazy" src="image/31474115-2f78-4c17-c47b-2bb6ea45b31b.jpg" width="200"/>
+     <h2 class="text-xl font-semibold text-indigo-600 mb-1">
+      Amara Johnson
+     </h2>
+     <p class="text-gray-600 mb-3 italic">
+      Mixed Media Artist
+     </p>
+     <p class="text-gray-700 text-sm">
+      Amara’s mixed media works explore identity and culture through layered textures, vibrant colors, and found objects.
+     </p>
+     <div class="mt-4 flex space-x-4 text-indigo-600 text-lg">
+      <a aria-label="Amara Johnson Twitter" href="https://twitter.com/amarajohnson" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-twitter hover:text-indigo-800 transition">
+       </i>
+      </a>
+      <a aria-label="Amara Johnson Instagram" href="https://instagram.com/amarajohnson" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-instagram hover:text-indigo-800 transition">
+       </i>
+      </a>
+      <a aria-label="Amara Johnson Website" href="https://amarajohnsonart.com" rel="noopener noreferrer" target="_blank">
+       <i class="fas fa-globe hover:text-indigo-800 transition">
+       </i>
+      </a>
+     </div>
+    </article>
+    <article class="bg-white rounded-lg shadow hover:shadow-lg transition flex flex-col items-center p-6 text-center">
+     <img alt="Portrait of a middle-aged male artist with salt-and-pepper hair and beard, wearing a black shirt and a leather jacket, smiling softly" class="w-40 h-40 rounded-full object-cover mb-4" height="200" loading="lazy" src="image/a1e88c50-796e-49ff-cb55-44fc780d6e7d.jpg" width="200"/>
+     <h2 class="text-xl font-semibold text-indigo-600 mb-1">
+      Ethan Brooks
+     </h2>
+     <p class="text-gray-600 mb-3 italic">
+      Photographer
+     </p>
+     <p class="text-gray-700 text-sm">
+      Ethan captures the beauty of everyday moments with a focus on natural light and candid human expressions.
+     </p>
+     <div class="mt-4 flex space-x-4 text-indigo-600 text-lg">
+      <a aria-label="Ethan Brooks Twitter" href="https://twitter.com/ethanbrooks" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-twitter hover:text-indigo-800 transition">
+       </i>
+      </a>
+      <a aria-label="Ethan Brooks Instagram" href="https://instagram.com/ethanbrooks" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-instagram hover:text-indigo-800 transition">
+       </i>
+      </a>
+      <a aria-label="Ethan Brooks Website" href="https://ethanbrooksphoto.com" rel="noopener noreferrer" target="_blank">
+       <i class="fas fa-globe hover:text-indigo-800 transition">
+       </i>
+      </a>
+     </div>
+    </article>
+    <article class="bg-white rounded-lg shadow hover:shadow-lg transition flex flex-col items-center p-6 text-center">
+     <img alt="Portrait of a young female artist with short platinum blonde hair, wearing a black t-shirt and silver hoop earrings, with a serious expression" class="w-40 h-40 rounded-full object-cover mb-4" height="200" loading="lazy" src="image/66ac3ee8-35e2-48b3-8145-3550fe1d0064.jpg" width="200"/>
+     <h2 class="text-xl font-semibold text-indigo-600 mb-1">
+      Nina Patel
+     </h2>
+     <p class="text-gray-600 mb-3 italic">
+      Graphic Designer
+     </p>
+     <p class="text-gray-700 text-sm">
+      Nina specializes in bold, minimalist graphic designs and branding, blending modern aesthetics with cultural motifs.
+     </p>
+     <div class="mt-4 flex space-x-4 text-indigo-600 text-lg">
+      <a aria-label="Nina Patel Twitter" href="https://twitter.com/ninapatel" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-twitter hover:text-indigo-800 transition">
+       </i>
+      </a>
+      <a aria-label="Nina Patel Instagram" href="https://instagram.com/ninapatel" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-instagram hover:text-indigo-800 transition">
+       </i>
+      </a>
+      <a aria-label="Nina Patel Website" href="https://ninapateldesign.com" rel="noopener noreferrer" target="_blank">
+       <i class="fas fa-globe hover:text-indigo-800 transition">
+       </i>
+      </a>
+     </div>
+    </article>
+    <article class="bg-white rounded-lg shadow hover:shadow-lg transition flex flex-col items-center p-6 text-center">
+     <img alt="Portrait of a middle-aged male artist with bald head and glasses, wearing a white shirt and suspenders, smiling broadly" class="w-40 h-40 rounded-full object-cover mb-4" height="200" loading="lazy" src="image/50992550-0335-42d9-ed15-ead8dbc88496.jpg" width="200"/>
+     <h2 class="text-xl font-semibold text-indigo-600 mb-1">
+      Carlos Rivera
+     </h2>
+     <p class="text-gray-600 mb-3 italic">
+      Ceramic Artist
+     </p>
+     <p class="text-gray-700 text-sm">
+      Carlos crafts intricate ceramic pieces inspired by traditional Latin American pottery techniques and modern forms.
+     </p>
+     <div class="mt-4 flex space-x-4 text-indigo-600 text-lg">
+      <a aria-label="Carlos Rivera Twitter" href="https://twitter.com/carlosrivera" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-twitter hover:text-indigo-800 transition">
+       </i>
+      </a>
+      <a aria-label="Carlos Rivera Instagram" href="https://instagram.com/carlosrivera" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-instagram hover:text-indigo-800 transition">
+       </i>
+      </a>
+      <a aria-label="Carlos Rivera Website" href="https://carlosriveraceramics.com" rel="noopener noreferrer" target="_blank">
+       <i class="fas fa-globe hover:text-indigo-800 transition">
+       </i>
+      </a>
+     </div>
+    </article>
+    <article class="bg-white rounded-lg shadow hover:shadow-lg transition flex flex-col items-center p-6 text-center">
+     <img alt="Portrait of a young female artist with long black hair and bangs, wearing a floral dress and a silver bracelet, smiling softly" class="w-40 h-40 rounded-full object-cover mb-4" height="200" loading="lazy" src="image/9e38a5c2-ba98-4a69-25c0-67bab241769b.jpg" width="200"/>
+     <h2 class="text-xl font-semibold text-indigo-600 mb-1">
+      Yuki Tanaka
+     </h2>
+     <p class="text-gray-600 mb-3 italic">
+      Watercolor Artist
+     </p>
+     <p class="text-gray-700 text-sm">
+      Yuki’s delicate watercolor paintings capture serene landscapes and intimate moments with subtle color palettes.
+     </p>
+     <div class="mt-4 flex space-x-4 text-indigo-600 text-lg">
+      <a aria-label="Yuki Tanaka Twitter" href="https://twitter.com/yukitanaka" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-twitter hover:text-indigo-800 transition">
+       </i>
+      </a>
+      <a aria-label="Yuki Tanaka Instagram" href="https://instagram.com/yukitanaka" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-instagram hover:text-indigo-800 transition">
+       </i>
+      </a>
+      <a aria-label="Yuki Tanaka Website" href="https://yukitanakawatercolors.com" rel="noopener noreferrer" target="_blank">
+       <i class="fas fa-globe hover:text-indigo-800 transition">
+       </i>
+      </a>
+     </div>
+    </article>
+    <article class="bg-white rounded-lg shadow hover:shadow-lg transition flex flex-col items-center p-6 text-center">
+     <img alt="Portrait of a middle-aged male artist with curly brown hair and a mustache, wearing a green shirt and a brown vest, looking thoughtfully" class="w-40 h-40 rounded-full object-cover mb-4" height="200" loading="lazy" src="image/f0c0bf9f-ca28-4211-ac68-f8a2bc33fa0d.jpg" width="200"/>
+     <h2 class="text-xl font-semibold text-indigo-600 mb-1">
+      Javier Morales
+     </h2>
+     <p class="text-gray-600 mb-3 italic">
+      Street Artist
+     </p>
+     <p class="text-gray-700 text-sm">
+      Javier’s vibrant murals bring urban spaces to life, combining social commentary with bold graffiti styles.
+     </p>
+     <div class="mt-4 flex space-x-4 text-indigo-600 text-lg">
+      <a aria-label="Javier Morales Twitter" href="https://twitter.com/javiermorales" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-twitter hover:text-indigo-800 transition">
+       </i>
+      </a>
+      <a aria-label="Javier Morales Instagram" href="https://instagram.com/javiermorales" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-instagram hover:text-indigo-800 transition">
+       </i>
+      </a>
+      <a aria-label="Javier Morales Website" href="https://javiermoralesart.com" rel="noopener noreferrer" target="_blank">
+       <i class="fas fa-globe hover:text-indigo-800 transition">
+       </i>
+      </a>
+     </div>
+    </article>
+    <article class="bg-white rounded-lg shadow hover:shadow-lg transition flex flex-col items-center p-6 text-center">
+     <img alt="Portrait of a young female artist with curly red hair tied in a ponytail, wearing a blue denim shirt and a necklace, smiling brightly" class="w-40 h-40 rounded-full object-cover mb-4" height="200" loading="lazy" src="image/63ab3576-33e0-4703-cdef-f740058105aa.jpg" width="200"/>
+     <h2 class="text-xl font-semibold text-indigo-600 mb-1">
+      Isabella Green
+     </h2>
+     <p class="text-gray-600 mb-3 italic">
+      Textile Artist
+     </p>
+     <p class="text-gray-700 text-sm">
+      Isabella creates intricate textile art using traditional weaving techniques combined with modern patterns.
+     </p>
+     <div class="mt-4 flex space-x-4 text-indigo-600 text-lg">
+      <a aria-label="Isabella Green Twitter" href="https://twitter.com/isabellagreen" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-twitter hover:text-indigo-800 transition">
+       </i>
+      </a>
+      <a aria-label="Isabella Green Instagram" href="https://instagram.com/isabellagreen" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-instagram hover:text-indigo-800 transition">
+       </i>
+      </a>
+      <a aria-label="Isabella Green Website" href="https://isabellagreentextiles.com" rel="noopener noreferrer" target="_blank">
+       <i class="fas fa-globe hover:text-indigo-800 transition">
+       </i>
+      </a>
+     </div>
+    </article>
+   </section>
+  </main>
+  <footer class="bg-white border-t border-gray-200 py-6 mt-12">
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-500 text-sm">
+    © 2025 Art Gallery. All rights reserved by Mr.Veasna.
+   </div>
+  </footer>
+  <script>
+   const btn = document.getElementById("menu-btn");
+    const menu = document.getElementById("mobile-menu");
+    btn.addEventListener("click", () => {
+      menu.classList.toggle("hidden");
+    });
+  </script>
+ </body>
+</html>
